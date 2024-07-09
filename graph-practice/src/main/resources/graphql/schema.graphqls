@@ -1,0 +1,17 @@
+type Query {
+  getVendors: [Vendor]
+  getFirstMsg: String
+}
+type Vendor {
+  vendorId: ID!
+  vendorName: String!
+  vendorCity: String
+  vendorAddress: String
+  vendorPhone: String
+  vendorEmail: String
+  vendorType: String
+  vendorRating: Float
+  vendorStatus: String
+  vendorContactPerson: String
+  vendorWebsite: String
+}
